@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_row_selector" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/textview_layout">
+
+    <!-- User name -->
+    <TextView
+        android:id="@+id/question_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/title"
+        android:text="Question:"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastseen"
+        android:padding="10dp"
+        android:textSize="@dimen/title" />
+
+    <!-- Last Seen -->
+    <TextView
+        android:id="@+id/answer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/year"
+        android:text="Answer:"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textSize="@dimen/title"/>
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/year"
+            android:padding="10dp"
+            android:textSize="@dimen/title" />
+    </LinearLayout>
+
+</RelativeLayout>

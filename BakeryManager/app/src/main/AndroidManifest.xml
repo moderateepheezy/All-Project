@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.simpumind.com.bakerymanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".BakApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark"></activity>
+        <activity
+            android:name=".SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.Dark"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.MixingActivity"
+            android:label="@string/title_activity_mixing"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.BakingActivity"
+            android:label="@string/title_activity_baking"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.SuggestionActivity"
+            android:label="@string/title_activity_suggestion"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.MixingDetailed"
+            android:label="@string/title_activity_mixing_detailed"
+            android:parentActivityName=".org.simpumind.bakery.staff.MixingActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.org.simpumind.bakery.staff.MixingActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.BakingDetail"
+            android:label="@string/title_activity_baking_detail"
+            android:parentActivityName=".org.simpumind.bakery.staff.BakingActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.org.simpumind.bakery.staff.BakingActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.PackagingActivity"
+            android:label="@string/title_activity_packaging"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.PackagingDetail"
+            android:label="@string/title_activity_packaging_detail"
+            android:parentActivityName=".org.simpumind.bakery.staff.PackagingActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.org.simpumind.bakery.staff.PackagingActivity" />
+        </activity>
+        <activity
+            android:name=".LoadScreenActivity"
+            android:label="@string/title_activity_load_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.DriverRequestActivity"
+            android:label="Customer's Request"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.bakerymanager.MainActivity" />
+        </activity>
+        <activity
+            android:name=".org.simpumind.bakery.staff.RequestDetails"
+            android:label="@string/title_activity_request_details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

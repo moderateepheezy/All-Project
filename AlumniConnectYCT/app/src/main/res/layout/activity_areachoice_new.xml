@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/view_navigation"/>
+    <LinearLayout 
+        android:id="@+id/area_choice_layout"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@android:color/white">
+	    <TextView 
+	        android:id="@+id/domestic_choice"
+	        android:text="国内"
+	        android:gravity="center"
+	        android:padding="10dip"
+	        android:layout_weight="1"
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"/>
+        <TextView 
+            android:id="@+id/international_choice"
+	        android:text="国际"
+	        android:gravity="center"
+	        android:padding="10dip"
+	        android:layout_weight="1"
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"/>
+    </LinearLayout>
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+	    <FrameLayout 
+	        android:id="@+id/area_domestic"
+	        android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+	        
+	    </FrameLayout>
+	    <FrameLayout 
+	        android:id="@+id/area_international"
+	        android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+	        
+	    </FrameLayout>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pn_red">#d02129</color>
+    <color name="pn_blue">#ff19a2c6</color>
+
+    <color name="green">#0f0</color>
+    <color name="red">#f00</color>
+
+    <color name="primary1">#8BC34A</color>
+    <color name="primaryDark">#689F38</color>
+    <color name="primaryLight">#DCEDC8</color>
+    <color name="accent1">#FF4081</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+    <color name="divider1">#B6B6B6</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#40ffa6</color>
+
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primary">#2eab2c</color>
+    <color name="back">#dce4b1</color>
+
+
+    <color name="transparent">#00ffffff</color>
+
+    <color name="primary_darker">#06ed13</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="primary_dark">#01310f</color>
+    <color name="divider">#f2f2f2</color>
+
+    <color name="list_item_title">#d7ddee</color>
+    <color name="list_background">#1a1b1d</color>
+    <color name="list_background_pressed">#131315</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="black">#000000</color>
+    <color name="grid_bg">#000000</color>
+    <color name="grid_item_bg">#1a1b1d</color>
+    <color name="action_bar">#141416</color>
+    <color name="action_bar_title">#ffffff</color>
+    <color name="settings_label">#323232</color>
+</resources>

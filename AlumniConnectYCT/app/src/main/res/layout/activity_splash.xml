@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView 
+        android:src="@drawable/splash_bg"
+        android:scaleType="centerCrop"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"/>
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/splash_viewpager"
+	    android:visibility="invisible"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@color/splash_intro_bg">
+	    
+	</android.support.v4.view.ViewPager>
+	<LinearLayout 
+	    android:id="@+id/splash_viewpager_indicator"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginBottom="25dip"
+	    android:orientation="horizontal"
+	    android:visibility="invisible"
+	    android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+	    <ImageView 
+	        android:id="@+id/splash_pic_1"
+	        android:padding="3dip"
+	        android:src="@drawable/ic_point1"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id="@+id/splash_pic_2"
+	        android:padding="3dip"
+	        android:src="@drawable/ic_point2"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id="@+id/splash_pic_3"
+	        android:padding="3dip"
+	        android:src="@drawable/ic_point2"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id="@+id/splash_pic_4"
+	        android:padding="3dip"
+	        android:src="@drawable/ic_point2"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/regist_title_bakcground" >
+    <include 
+        layout="@layout/view_navigation">
+        
+    </include>
+	<TextView 
+		android:gravity="left|center"
+        android:layout_marginLeft="@dimen/ucenter_item_arror_margin_right"
+		android:layout_marginRight="@dimen/ucenter_item_arror_margin_right"
+	    android:text="我们会发邮件给您的证明人，帮助您确认校友身份"
+	    android:textColor="@color/bussiness_card_text"
+		android:textSize="@dimen/ucenter_item_text"
+        android:layout_height="@dimen/ucenter_item_height"
+    	android:layout_width="match_parent"/>
+	<EditText 
+	    android:id="@+id/verification_man"
+	    android:textColor="@color/verification"
+	    android:hint="请输入证明人姓名"
+	    android:textColorHint="@color/verification"
+	    android:background="@android:color/white"
+        android:paddingLeft="@dimen/ucenter_item_arror_margin_right"
+        android:layout_height="@dimen/ucenter_item_image_height"
+    	android:layout_width="match_parent"/>
+	<TextView 
+        android:id="@+id/verification_commit"
+        android:layout_gravity="center_horizontal"
+        android:text="完成"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+        android:textStyle="bold" />
+</LinearLayout>

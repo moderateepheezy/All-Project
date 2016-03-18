@@ -1,0 +1,31 @@
+Discuss concept of data structure. Explain data attributes, name value range and data types. Explain
+
+concepts of character, fields, sub field, records and files. Explain the meaning of data structure. Discuss
+
+symbols, relations and graph. Discuss the symbols for expressing relations among data, position relation
+
+cell contents, record location, and transfer key. Explain the properties of graph: routes, edge, sequences,
+
+directed and non-directed. Describe operations such as precede, less than points to, routes t6, search,
+
+change, entry. Define sets and relation □ Define the elements of set, subsets, super sets, Universal set and
+
+null set.* □Describe set Operations. Explain the term occupancy. Leans, empty, loose. □Distinguish and
+
+define birth, death and changes of data. □Define a sequential list, □ Explain the differences between fixed
+
+and variable length fields. □ Implement fixed and variable fields. Define ordered and linear list. □Explain
+
+operations that can be performed on an ordered list: ‘append, search (including delete, sort, election and
+
+exchange,- merge, including multi-way merge and balance merge.). Describe different types of linked list
+
+array, double linked list, queues, stock, de-queues, trees. □ Explain the use of pointers. □ Describe storage
+
+mapping for linked lists. Discuss tree and its properties. Explain binary tree Representation Define graph
+
+State properties of graph: routes, queued and non-directed. Describe different types of graphs: circle,
+
+loops, etc. Describe operations such as proceeds, less than etc. Define sorting. Explain Comparison based
+
+sorting. Explain bubble sorting algorithm Explain selection sorting Algorithm.

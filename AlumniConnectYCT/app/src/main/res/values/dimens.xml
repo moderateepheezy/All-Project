@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_height">55dip</dimen>
+
+    <dimen name="nav_title_height">48dip</dimen>
+    <dimen name="nav_title_text">21sp</dimen>
+    <dimen name="nav_baritem_margin_right">20dip</dimen>
+    <dimen name="nav_baritem_margin_left">15dip</dimen>
+    <dimen name="nav_baritem_text">17sp</dimen>
+
+    <dimen name="activity_indicator_layout_height">36dip</dimen>
+    <dimen name="activity_indicator_height">20dip</dimen>
+    <dimen name="activity_indicator_text">18sp</dimen>
+    <dimen name="activity_indicator_choice_height">4dip</dimen>
+    <dimen name="activity_indicator_nochoice_height">2dip</dimen>
+
+    <dimen name="activity_bg_margin_top">6dip</dimen>
+    <dimen name="activity_bg_margin_left">12dip</dimen>
+    <dimen name="activity_bg_height">100dip</dimen>
+    <dimen name="activity_image_margin">10dip</dimen>
+    <dimen name="activity_title_text">16sp</dimen>
+    <dimen name="activity_subtitle_text">11sp</dimen>
+    <dimen name="activity_image_height">72dip</dimen>
+    <dimen name="activity_right_width">75dip</dimen>
+    <dimen name="activity_join_text">18sp</dimen>
+    <dimen name="activity_spec_height">70dip</dimen>
+
+    <dimen name="activity_detail_margin_top">10dip</dimen>
+    <dimen name="activity_detail_margin_leftright">12dip</dimen>
+    <dimen name="activity_detail_title_margin">18dip</dimen>
+    <dimen name="activity_detail_title_text">22sp</dimen>
+    <dimen name="activity_detail_time_text">16sp</dimen>
+    <dimen name="activity_detail_time_margin">18dip</dimen>
+    <dimen name="activity_detail_person_margin">10dip</dimen>
+    <dimen name="activity_detail_lasttime_margin">10dip</dimen>
+    <dimen name="activity_detail_lasttime_text">16sp</dimen>
+    <dimen name="activity_detail_pic_layout_margin_leftright">40dip</dimen>
+    <dimen name="activity_detail_pic_layout_margin_top">15dip</dimen>
+    <dimen name="activity_detail_pic_layout_margin_bottom">20dip</dimen>
+    <dimen name="activity_detail_pic_text">14dip</dimen>
+    <dimen name="activity_detail_num_margin_top">15dip</dimen>
+    <dimen name="activity_detail_num_padding_right">10dip</dimen>
+    <dimen name="activity_detail_num_padding_left">18dip</dimen>
+    <dimen name="activity_detail_num_padding_top">10dip</dimen>
+    <dimen name="activity_detail_num_text">16sp</dimen>
+    <dimen name="activity_detail_enroll_margin_top">30dip</dimen>
+    <dimen name="activity_detail_enroll_height">50dip</dimen>
+    <dimen name="activity_detail_enroll_padding">15dip</dimen>
+    <dimen name="activity_detail_end_title_margin_top">15dip</dimen>
+
+    <dimen name="activity_send_scroll_margin">15dip</dimen>
+    <dimen name="activity_send_left_text">16sp</dimen>
+    <dimen name="activity_send_padding_leftright">5dip</dimen>
+    <dimen name="activity_send_padding_topbottom">10dip</dimen>
+    <dimen name="activity_send_spec_margin_top">20dip</dimen>
+    <dimen name="activity_send_image_heightwidth">65dip</dimen>
+    <dimen name="activity_send_image_layout_height">100dip</dimen>
+    <dimen name="activity_send_image_text_margin_topbottom">25dip</dimen>
+    <dimen name="activity_send_image_margin">17dip</dimen>
+    <dimen name="activity_send_image_text">17sp</dimen>
+    <dimen name="activity_edit_margin_leftright">15dip</dimen>
+
+    <dimen name="activity_send_comp">140dip</dimen>
+    <dimen name="activity_send_text">24sp</dimen>
+    <dimen name="activity_send_text2_height">40dip</dimen>
+    <dimen name="activity_send_text2_width">260dip</dimen>
+    <dimen name="activity_send_text2">18sp</dimen>
+    <dimen name="activity_send_text2_margin_top">51dip</dimen>
+    <dimen name="activity_send_text3_margin_top">35dip</dimen>
+
+    <dimen name="login_edit_margin_top">12dip</dimen>
+    <dimen name="login_edit_height">100dip</dimen>
+    <dimen name="login_edit_width">330dip</dimen>
+    <dimen name="login_edit_margin_leftright">18dip</dimen>
+    <dimen name="login_edit_commit_margin_top">30dip</dimen>
+    <dimen name="login_edit_commit_margin_top_more">10dip</dimen>
+    <dimen name="login_edit_commit_margin_bottom">30dip</dimen>
+    <dimen name="login_edit_commit_text">16sp</dimen>
+    <dimen name="login_edit_commit_text_more">12sp</dimen>
+    <dimen name="login_edit_other_text_margin">15dip</dimen>
+    <dimen name="login_edit_other_text">14sp</dimen>
+
+    <dimen name="regist_choice_margin_leftright">12dip</dimen>
+    <dimen name="regist_title_height">35dip</dimen>
+    <dimen name="regist_title_margin_top">45dip</dimen>
+    <dimen name="regist_title_margin_left">25dip</dimen>
+    <dimen name="regist_title_text">16sp</dimen>
+    <dimen name="regist_content_margin_left">40dip</dimen>
+    <dimen name="regist_content_margin_right">15dip</dimen>
+    <dimen name="regist_content_height">55dip</dimen>
+    <dimen name="regist_content_hide_margin_left">6dip</dimen>
+    <dimen name="regist_content_hide_text">12sp</dimen>
+    <dimen name="regist_rate_margin_leftright">15dip</dimen>
+    <dimen name="regist_fail_desp_height">105dip</dimen>
+    <dimen name="regist_fail_info_height">245dip</dimen>
+    <dimen name="regist_fail_info_item_text">16dip</dimen>
+    <dimen name="regist_fail_info_item_height">50dip</dimen>
+    <dimen name="regist_fail_info_item_margin_top">25dip</dimen>
+    <dimen name="regist_fail_info_item_margin_left">35dip</dimen>
+    <dimen name="regist_fail_info_item_margin_bottom">18dip</dimen>
+    <dimen name="regist_fail_info_item_image_margin">10dip</dimen>
+    <dimen name="regist_fail_info_nouser_width">330dip</dimen>
+    <dimen name="regist_fail_info_nouser_height">40dip</dimen>
+    <dimen name="regist_fail_info_nouser_margin">15dip</dimen>
+    <dimen name="regist_fail_info_nouser_text">18sp</dimen>
+    <dimen name="regist_fail_info_tip">20sp</dimen>
+
+    <dimen name="organization_item_top_height">35dip</dimen>
+    <dimen name="organization_item_text">16sp</dimen>
+    <dimen name="organization_item_height">60dip</dimen>
+    <dimen name="organization_item_height2">80dip</dimen>
+    <dimen name="organization_item_image_margin_left">22dip</dimen>
+    <dimen name="organization_item_image_margin_right">12dip</dimen>
+    <dimen name="organization_item_image_margin_bottom">8dip</dimen>
+    <dimen name="organization_item_image_heightwidth">44dip</dimen>
+    <dimen name="organization_item_news_margin_right">16dip</dimen>
+    <dimen name="organization_item_news_text">10dip</dimen>
+    <dimen name="organization_item_title_text">16sp</dimen>
+    <dimen name="organization_item_otherinfo_text">14sp</dimen>
+    <dimen name="organization_add_padding">10dip</dimen>
+    <dimen name="organization_detail_item_height">75dip</dimen>
+    <dimen name="organization_detail_item_margin_top">15dip</dimen>
+    <dimen name="organization_detail_item_margin_bottom">4dip</dimen>
+    <dimen name="organization_detail_item_admin_text">10sp</dimen>
+    <dimen name="organization_detail_item_admin_margin">20dip</dimen>
+    <dimen name="organization_detail_item_admin_padding_leftright">3dip</dimen>
+    <dimen name="organization_detail_item_admin_padding_topbottom">1dip</dimen>
+    <dimen name="organization_detail_item_message_margin">16dip</dimen>
+    <dimen name="organization_detail_item_setting_margin">24dip</dimen>
+    <dimen name="organization_search_alumni_width">150dip</dimen>
+    <dimen name="organization_reviewclass_width">100dip</dimen>
+    <dimen name="organization_reviewclass_text">12sp</dimen>
+    <dimen name="organization_reviewclass_rejectreson">99dip</dimen>
+
+    <dimen name="bussiness_margin_left">40dip</dimen>
+    <dimen name="bussiness_margin_right">20dip</dimen>
+    <dimen name="bussiness_margin_heightwidth">60dip</dimen>
+    <dimen name="bussiness_name_text">22sp</dimen>
+    <dimen name="bussiness_name_margin_top">5dip</dimen>
+    <dimen name="bussiness_name_margin_bottom">10dip</dimen>
+    <dimen name="bussiness_comp_text">16sp</dimen>
+    <dimen name="bussiness_pos_margin_top">5dip</dimen>
+    <dimen name="bussiness_item_margin_left">35dip</dimen>
+    <dimen name="bussiness_item_margin_right">10dip</dimen>
+    <dimen name="bussiness_item_margin_right2">12dip</dimen>
+    <dimen name="bussiness_item_height">40dip</dimen>
+    <dimen name="bussiness_item_width">50dip</dimen>
+    <dimen name="bussiness_item_text">18sp</dimen>
+    <dimen name="bussiness_item_image_widthheight">26dip</dimen>
+    <dimen name="bussiness_report">10dip</dimen>
+
+    <dimen name="bussiness_margin_new">10dip</dimen>
+    <dimen name="bussiness_new_class_text">16sp</dimen>
+    <dimen name="bussiness_new_message">45dip</dimen>
+    <dimen name="bussiness_new_section_height">38dip</dimen>
+    <dimen name="bussiness_new_section_text">14sp</dimen>
+    <dimen name="bussiness_new_heightwidth">75dip</dimen>
+
+    <dimen name="search_alumni_margin_top">80dip</dimen>
+    <dimen name="search_alumni_margin_left">90dip</dimen>
+    <dimen name="search_alumni_margin_right">15dip</dimen>
+    <dimen name="search_alumni_margin_bottom">50dip</dimen>
+    <dimen name="search_alumni_text">20sp</dimen>
+
+    <dimen name="ucenter_item_height">60dip</dimen>
+    <dimen name="ucenter_item_name_margin_right">5dip</dimen>
+    <dimen name="ucenter_item_name_text">14sp</dimen>
+    <dimen name="ucenter_item_arror_margin_right">12dip</dimen>
+    <dimen name="ucenter_item_image_height">40dip</dimen>
+    <dimen name="ucenter_item_image_margin_left">25dip</dimen>
+    <dimen name="ucenter_item_image_margin_right">12dip</dimen>
+    <dimen name="ucenter_item_sper">33dip</dimen>
+    <dimen name="ucenter_item_text">16sp</dimen>
+
+    <dimen name="message_item_image_margin_left">10dip</dimen>
+    <dimen name="message_item_image_margin_right">5dip</dimen>
+    <dimen name="message_item_padding">10dip</dimen>
+    <dimen name="message_item_padding_left">18dip</dimen>
+    <dimen name="message_item_message_margin_right">55dip</dimen>
+    <dimen name="message_item_message_margin_top">3dip</dimen>
+    <dimen name="message_item_title">16sp</dimen>
+    <dimen name="message_item_text">14sp</dimen>
+    <dimen name="message_item_time">12sp</dimen>
+    <dimen name="message_item_message_margin_topbottom">13dip</dimen>
+    <dimen name="message_item_modual_title">18sp</dimen>
+    <dimen name="message_item_modual_text">10sp</dimen>
+    <dimen name="message_item_subscribe_height">25dip</dimen>
+    <dimen name="message_item_subscribe_title_margin_left_right">10dip</dimen>
+    <dimen name="message_item_subscribe_content_text">12sp</dimen>
+    <dimen name="message_item_subscribe_bottom_height">40dip</dimen>
+    <dimen name="message_toolbar_height">60dip</dimen>
+    <dimen name="message_toolbar_margin_left">15dip</dimen>
+    <dimen name="message_toolbar_margin_right">10dip</dimen>
+    <dimen name="message_toolbar_margin_top_bottom">10dip</dimen>
+    <dimen name="message_toolbar_content_width">255dip</dimen>
+    <dimen name="message_toolbar_content_height">35dip</dimen>
+    <dimen name="message_toolbar_more_widthheight">25dip</dimen>
+    <dimen name="message_toolbar_more_margin_right">15dip</dimen>
+    <dimen name="message_tool_layout_height">100dip</dimen>
+    <dimen name="message_tool_layout_text_margin_top">5dip</dimen>
+    <dimen name="message_tool_layout_text_size">12sp</dimen>
+
+    <dimen name="news_viewpager_height">200dip</dimen>
+    <dimen name="news_viewpager_margin_bottom">20dip</dimen>
+    <dimen name="news_viewpager_margin_Leftright">20dip</dimen>
+    <dimen name="news_viewpager_text">22sp</dimen>
+    <dimen name="adapter_news_margin_leftright">20dip</dimen>
+    <dimen name="adapter_news_margin_topbuttom">10dip</dimen>
+    <dimen name="adapter_news_image_height">60dip</dimen>
+    <dimen name="adapter_news_image_width">80dip</dimen>
+    <dimen name="adapter_news_text">16sp</dimen>
+    <dimen name="adapter_news_time_text">12sp</dimen>
+
+    <dimen name="alert_cancel_text">19sp</dimen>
+    <dimen name="alert_height">55dip</dimen>
+    <dimen name="alert_width">30dip</dimen>
+    <dimen name="alert_margin_left1">30dip</dimen>
+    <dimen name="alert_margin_left2">20dip</dimen>
+    <dimen name="alert_margin_top">25dip</dimen>
+    <dimen name="alert_text_width">100dip</dimen>
+
+    <dimen name="alert_update_width">300dip</dimen>
+    <dimen name="alert_update_title_height">50dip</dimen>
+    <dimen name="alert_update_title_margin_left">20dip</dimen>
+    <dimen name="alert_update_title_margin_right">14dip</dimen>
+    <dimen name="alert_update_title_text">18sp</dimen>
+    <dimen name="alert_update_content_text">16sp</dimen>
+
+    <dimen name="version_text">12sp</dimen>
+
+    <dimen name="slidingmenu_offset">100dip</dimen>
+
+    <dimen name="fragment_main2_content_textsize">12sp</dimen>
+    <dimen name="fragment_main2_content_adapter_height">120dip</dimen>
+    <dimen name="fragment_main2_content_adapter_pic_height">80dip</dimen>
+    <dimen name="fragment_main2_content_adapter_pic_margin_top">20dip</dimen>
+    <dimen name="fragment_main2_content_adapter_pic_margin_right">15dip</dimen>
+    <dimen name="fragment_main2_content_adapter_pic_margin_left">12dip</dimen>
+    <dimen name="fragment_main2_content_adapter_title">16sp</dimen>
+    <dimen name="fragment_main2_content_adapter_other2">12sp</dimen>
+
+    <dimen name="adapter_post_title_size">16sp</dimen>
+    <dimen name="adapter_post_userinfo_size">12sp</dimen>
+
+    <dimen name="adapter_postcomment_margin">20dip</dimen>
+    <dimen name="adapter_postcomment_title_margin">15dip</dimen>
+    <dimen name="adapter_postcomment_desp_margin">79dip</dimen>
+    <dimen name="adapter_postcomment_comment">40dip</dimen>
+    <dimen name="adapter_post_image_heightwidth">81dip</dimen>
+    <dimen name="send_post_title_text">12sp</dimen>
+    <dimen name="send_post_title_margin_left">15dip</dimen>
+    <dimen name="send_post_label_text">14dip</dimen>
+
+    <dimen name="searchcop_textsize">12sp</dimen>
+    <dimen name="searchcop_text_padding">20dip</dimen>
+    <dimen name="searchcop_searchedit">50dip</dimen>
+    <dimen name="searchcop_searcheditsize">12sp</dimen>
+
+    <dimen name="menu_line_margin_left">40dip</dimen>
+    <dimen name="menu_margin_left">37dip</dimen>
+    <dimen name="menu_margin_right">20dip</dimen>
+    <dimen name="menu_margin_top">30dip</dimen>
+    <dimen name="menu_title_text">24sp</dimen>
+    <dimen name="menu_image_height_width">50dip</dimen>
+    <dimen name="menu_item_text">18sp</dimen>
+
+    <dimen name="activity_donation_tip_title">18sp</dimen>
+    <dimen name="activity_donation_tip">15sp</dimen>
+    <dimen name="activity_donation_tip_margin_bottom">40dip</dimen>
+    <dimen name="activity_donation_userinfo_marginleft">20dip</dimen>
+    <dimen name="activity_donation_userinfo_marginleft2">11dip</dimen>
+    <dimen name="activity_donation_userinfo_marginleft3">40dip</dimen>
+    <dimen name="activity_donation_userinfo_height">40dip</dimen>
+    <dimen name="activity_donation_userinfo_spe_height">15dip</dimen>
+    <dimen name="activity_donation_pay_text">13sp</dimen>
+    <dimen name="activity_donation_payway_desp_height">35dip</dimen>
+
+</resources>

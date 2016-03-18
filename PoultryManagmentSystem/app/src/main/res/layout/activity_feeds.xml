@@ -1,0 +1,356 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000044" >
+    
+    <TableRow
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="What to Feed"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+    </TableRow>
+
+   <TableRow>
+         <TextView
+             android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"            
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+         </TableRow>
+    
+
+    <TableRow
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="Feed Name"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Type"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/FeedName" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Apples"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Raw and AppleSauce"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Banana"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Without Peel"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Beans"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Well cooked only; Never Dry"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+
+    </TableRow>
+
+    <TableRow android:layout_gravity="right" >
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Fish/Seafood"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Always Cooked"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Eggs"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Hardcooked;good source of protein"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Sprouts"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Wheat and Oat in Mid-Winter"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+     <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Rice"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Cooked only"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+     
+     <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Yogurt"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Plain or flavoured"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+     /* leaves space */
+     <TableRow>
+         <TextView
+             android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"            
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+        
+         </TableRow>
+         <TableRow>
+         <TextView
+             android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"            
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+         </TableRow>
+    
+     /* Code for what not to feed to chickens */
+    
+      <TableRow
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="What not to Feed"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+    </TableRow>
+    <TableRow>
+         <TextView
+             android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"            
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+         </TableRow>
+    
+    
+       <TableRow
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:text="Feed Name"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/FeedName" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Reason"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/FeedName" />
+    </TableRow>
+    
+        <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Raw Green potato peels"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Contains Sloanine"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+         <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Dried/Uncooked Beans"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Contains poison hemaglutin"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+          <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Raw Eggs"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="kill their own eggs"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+            <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Candy, Sugar"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="bad for digestive system"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+    
+              <TableRow>
+
+        <TextView
+            android:id="@+id/textName"
+            android:text="Salty food"
+            android:textColor="#ffafff"
+            android:textSize="@dimen/Feed" />
+
+        <TextView
+            android:id="@+id/textPasswd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="salt poisioning to chickens"
+            android:textColor="#fffaff"
+            android:textSize="@dimen/Feed" />
+    </TableRow>
+       
+   
+
+</TableLayout>

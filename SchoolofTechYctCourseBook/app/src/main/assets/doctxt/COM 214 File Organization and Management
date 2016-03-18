@@ -1,0 +1,29 @@
+The concept of in computing. The concept of record, field, character, byte and bits in relation to a file,
+
+blocks of data The seek, read, write, fetch, insert, delete and update operations. Qualitatively file system
+
+performance in terms of fetch, insert, update and reorganization. Different methods of file organisation in
+
+computer system
+
+(heap ). File design alternatives. The different file operations;
+
+storage, retrieval, add delete, update and maintenance. Activity ratio and hit rate. Different types of files:
+
+Master file, Transaction file, Reference file, etc. The concept of master file, transaction file and activity
+
+file. Types of storage devices and media The characteristics of magnetic storage media, tape, disk,
+
+cartridge, bubble, hard disk, CDROM, floppy disks, zip disk, tape streamer, flash memory, optical disk.
+
+Different file access types:- random access and direct access storage methods. Seek time and rotational
+
+delay. The concept of a buffer and its functions. The calculation of buffer requirement of a file. File
+
+structure and organization File processing technique. Acoustical data structure. File generation and
+
+management. File sorting and merging. The concept of file access, file protection (passwords access rights,
+
+priority status, cryptography etc.) File indexing and index maintenance. File status, dumping and
+
+archiving. The problems relating to file access, protection, Security, archiving and backing up.

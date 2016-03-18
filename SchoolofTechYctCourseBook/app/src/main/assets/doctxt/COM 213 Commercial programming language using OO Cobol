@@ -1,0 +1,23 @@
+The object oriented concept The benefits of object oriented approach. OOCOBOL character set, reserved
+
+words and Data types. Divisions available in OOCOBOL (The various divisions of OOCOBOL and the
+
+order in which they are coded. The sections and paragraphs of the divisions). Discuss the structure of
+
+Identification and Environment Divisions stating clearly the sections and paragraphs contained in them.
+
+Discuss the overall structure of the Data division. Explain the file, working-storage, screen and linkage
+
+sections. Explain the picture, and value clauses. The various COBOL statements and their classification
+
+(The Imperative, Conditional and compiler directing statements, The various opening modes available in
+
+COBOL, i.e. Input, Output, Extend and I-O.). File processing concepts.
+
+Record update in sequential file processing.. The key concepts in Indexed File Processing. The uses of
+
+subprogram. The concept of local and global data. The implementation of subprogram. The concepts of
+
+classes, objects, polymorphism, Inheritance and Encapsulation. The concepts of class user, class builder,
+
+Dialect directive, programme name, program driver.

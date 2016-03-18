@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_text">#7f7f7f</color>
+    <color name="tab_top">#c1c1c1</color>
+    <color name="tab_bg">#f1f1f1</color>
+    <!--  <color name="tab_text_press">#004d94</color> -->
+    <color name="tab_text_press">#50a3ef</color>
+    <color name="tab_indicator">#f2f2f2</color>
+    <color name="adpter_activity_bg">#e0e0e0</color>
+    <color name="adpter_activity_spec_bg">#cae1ad</color>
+    <color name="adpter_activity_desp">#808080</color>
+    <color name="activity_desp_text">#666666</color>
+    <color name="activity_desp_line">#bdc5b6</color>
+    <color name="activity_send_line">#9e9e9e</color>
+    <color name="dialog_background">#f8f8f8</color>
+    <color name="activity_send_hint">#b3b3b3</color>
+    <color name="regist_title_bakcground">#e6e6e6</color>
+    <color name="regist_title_text">#8e8e8e</color>
+    <color name="regist_title_line">#c8c8c8</color>
+    <color name="regist_fail_text">#a53a42</color>
+    <color name="regist_fail_info_bg">#f7f7f7</color>
+    <color name="regist_fail_info_text">#c30d23</color>
+    <color name="organization_detail_text">#e70012</color>
+    <color name="bussiness_card_text">#999999</color>
+    <color name="bussiness_card_line">#e6e6e6</color>
+    <color name="bussiness_card_message">#cccccc</color>
+    <color name="bussiness_card_addcard">#73b1ec</color>
+    <color name="version">#898989</color>
+    <color name="loginout">#ee1818</color>
+    <color name="verification">#888888</color>
+    <color name="update_dialog_line">#e4e4e4</color>
+    <color name="reviewclass_ok">#2ec81f</color>
+    <color name="reviewclass_spec">#d6d8d7</color>
+    <color name="splash_intro_bg">#f8f5f0</color>
+    <color name="message_tool_layout_bg">#e6e6e6</color>
+    <color name="message_tool_layout_text">#a5a5a5</color>
+    <color name="message_subscribe_content_text">#666666</color>
+    <color name="searchcop_text">#7d7d7d</color>
+    <color name="searchcop_searchedit">#808080</color>
+    <color name="post_comment_text">#4d4d4d</color>
+    <color name="image_adapter_background">#cbcbcb</color>
+    <color name="send_post_edit">#b2b2b2</color>
+    <color name="donation_tip_text">#50a3ef</color>
+</resources>

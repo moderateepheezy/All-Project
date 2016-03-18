@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/view_navigation">
+        
+    </include>    
+    <RelativeLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent" >
+        <com.handmark.pulltorefresh.library.PullToRefreshWebView
+	   		android:id="@+id/newdetail_webview"
+	   		android:layout_height="match_parent"
+	   		android:layout_width="match_parent"/>
+	  	<WebView 
+	   		android:id="@+id/newdetail_webview_2"
+	   		android:visibility="gone"
+	   		android:layout_height="match_parent"
+	   		android:layout_width="match_parent"/>
+	    <ProgressBar 
+	    	android:id="@+id/newdetail_pb"
+	      	android:layout_width="match_parent"
+	      	style="@style/mywebProgress"
+			android:layout_height="5dip"/>
+    </RelativeLayout>
+    
+</LinearLayout>

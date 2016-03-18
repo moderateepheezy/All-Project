@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    compileOptions.encoding = 'ISO-8859-1'
+
+    defaultConfig {
+        applicationId "alumni.renyu.com.alumniconnectyct"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots/'
+        }
+        mavenCentral()
+        mavenLocal()
+    }
+
+    task copyJniLibs(type: Copy) {
+        from 'libs/armeabi'
+        into 'src/main/jniLibs/armeabi'
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(copyJniLibs)
+    }
+    clean.dependsOn 'cleanCopyJniLibs'
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile project(':alipaySDK-20150602')
+    compile files('libs/android_api_3_4.jar')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile files('libs/butterknife-6.1.0.jar')
+    compile files('libs/commons-codec-1.8.jar')
+    compile files('libs/eventbus-2.4.0.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/library_nineoldandroids_2.4.0.jar')
+    compile files('libs/mid-sdk-2.10.jar')
+    compile files('libs/mta-sdk-1.0.0.jar')
+    compile files('libs/open_sdk.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/qiniu_lib.jar')
+    compile files('libs/weibosdkcore.jar')
+    compile files('libs/wup-1.0.0-SNAPSHOT.jar')
+    compile files('libs/Xg_sdk_v2.37.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile project(':library')
+}

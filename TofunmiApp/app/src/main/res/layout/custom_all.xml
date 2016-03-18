@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_row_selector" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/textview_layout">
+
+        <!-- User name -->
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/title"
+            android:text="Tofunmi"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/post"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lastseen"
+            android:padding="10dp"
+            android:textSize="@dimen/title" />
+
+        <!-- Last Seen -->
+        <TextView
+            android:id="@+id/lastseen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/year"
+            android:text="Last seen"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textSize="@dimen/year" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textview_layout"
+        android:weightSum="0.9">
+        <Button
+            android:layout_below="@+id/button_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="like"
+            android:textSize="12dp"
+            android:background="@drawable/button_default_bg"
+            android:drawableLeft="@drawable/heart1"
+            android:gravity="center|center_vertical"
+            android:id="@+id/like"/>
+        <Button
+            android:layout_below="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="comment"
+            android:textSize="12dp"
+            android:background="@drawable/button_default_bg"
+            android:drawableLeft="@drawable/comment1"
+            android:gravity="center|center_vertical"
+            android:id="@+id/comment"/>
+        <Button
+            android:layout_below="@+id/button_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:gravity="center|center_vertical"
+            android:background="@drawable/button_default_bg"
+            android:layout_weight="0.3"
+            android:text="share"
+            android:drawableLeft="@drawable/share"
+            android:id="@+id/share"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@+id/button_layout">
+    <EditText
+        android:id="@+id/comment_box"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:layout_below="@+id/button_layout"
+        android:inputType="textMultiLine"
+        android:background="@drawable/edit_text_style"/>
+        <Button
+            android:layout_below="@+id/comment_box"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="COMMENT"
+            android:id="@+id/comment_btn"/>
+    </LinearLayout>
+</RelativeLayout>

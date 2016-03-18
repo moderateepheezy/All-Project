@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/view_navigation">
+        
+    </include>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+	        android:id="@+id/choiceschoolinfo_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:cacheColorHint="#00000000"
+	        android:divider="#19000000"
+	        android:background="@android:color/white"
+	        android:dividerHeight="0.5dp"
+	        android:fadingEdge="none"
+	        android:listSelector="@drawable/selector_listview"
+	        android:fastScrollEnabled="false"
+	        android:footerDividersEnabled="false"
+	        android:headerDividersEnabled="false"
+	        android:smoothScrollbar="true" />
+        <TextView 
+            android:id="@+id/choiceschoolinfo_nolist"
+            android:visibility="gone"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"/>
+        <RelativeLayout 
+	        android:id="@+id/choiceschoolinfo_login_layout"
+	        android:visibility="gone"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent">
+            <TextView 
+		        android:id="@+id/choiceschoolinfo_login"
+				android:layout_centerInParent="true"
+		        android:text="登录"
+		        android:gravity="center"
+		        android:textSize="@dimen/login_edit_commit_text"
+		        android:textColor="@android:color/white"
+		        android:background="@color/tab_text_press"
+		   		android:layout_width="@dimen/activity_send_text2_width"
+		   		android:layout_height="@dimen/activity_send_text2_height"
+		        android:textStyle="bold" />
+            <TextView 
+                android:layout_below="@id/choiceschoolinfo_login"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:text="您必须要先登录，才能看到参加活动的校友"
+                android:textColor="@color/adpter_activity_desp"
+                android:textSize="@dimen/activity_subtitle_text"
+            	android:layout_height="wrap_content"
+        		android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/activity_bg_margin_top"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

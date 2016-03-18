@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.simpumind.tofunmiapp" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoadScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".com.example.simpumind.home.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".com.example.simpumind.home.WallActivity"
+            android:label="@string/title_activity_wall" >
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".BoxingActivity"
+            android:label="@string/title_activity_boxing" >
+        </activity>
+        <activity
+            android:name=".HorseRaceActivity"
+            android:label="@string/title_activity_horse_race" >
+        </activity>
+        <activity
+            android:name=".ELPActivity"
+            android:label="@string/title_activity_elp" >
+        </activity>
+        <activity
+            android:name=".SubscribeActivity"
+            android:label="@string/title_activity_subscribe" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".FaqsActivity"
+            android:label="@string/title_activity_faqs" >
+        </activity>
+        <activity
+            android:name=".CarRaceActivity"
+            android:label="@string/title_activity_car_race" >
+        </activity>
+        <activity
+            android:name=".LiveScoreActivity"
+            android:label="@string/title_activity_live_score" >
+        </activity>
+    </application>
+
+</manifest>

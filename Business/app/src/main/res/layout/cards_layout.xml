@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tag="cards main container">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/moccasin"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        android:layout_marginBottom="11dp"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:tag="image_tag"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/business"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_weight="2"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="12dip"
+                android:paddingTop="12dip"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Name: "
+                    android:textSize="17sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:id="@+id/companyName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GEGGF"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="12dip"
+                android:paddingTop="12dip"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Address: "
+                    android:textSize="17sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:id="@+id/companyAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GEGGF"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="12dip"
+                android:paddingTop="12dip"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Phone No: "
+                    android:textSize="17sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+                <TextView
+                    android:id="@+id/companyPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GEGGF"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="12dip"
+                android:paddingTop="12dip"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Email: "
+                    android:textSize="17sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5" />
+                <TextView
+                    android:id="@+id/companyEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GEGGF"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.renyu.alumni.myview.LinearSlidingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+    android:background="@android:color/white" >
+    <RelativeLayout
+	    android:id="@+id/activitysend_editor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_send_image_layout_height">
+		<ImageView 
+	        android:id="@+id/activitysend_image"
+	        android:scaleType="centerCrop"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="@dimen/activity_send_image_margin"
+	        android:src="@drawable/ic_pic_add"
+    		android:layout_width="@dimen/activity_send_image_heightwidth"
+    		android:layout_height="@dimen/activity_send_image_heightwidth"/>
+		<TextView 
+		    android:id="@+id/activitysend_content"
+		    android:textColor="@color/activity_send_line"
+    		android:textSize="@dimen/activity_send_image_text"
+		    android:maxLines="3"
+	        android:layout_marginLeft="@dimen/activity_send_image_margin"
+	        android:layout_marginRight="@dimen/activity_send_image_margin"
+		    android:layout_centerVertical="true"
+		    android:layout_toRightOf="@id/activitysend_image"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"/>
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/activitysend_delete"
+        android:layout_width="100dip"
+        android:layout_height="@dimen/activity_send_image_layout_height" >
+		<TextView 
+		    android:text="删除"
+			android:layout_centerInParent="true"
+		    android:textSize="@dimen/activity_send_image_text"
+		    android:layout_marginRight="@dimen/activity_send_image_margin"
+		    android:textColor="@color/activity_send_line"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    
+</com.renyu.alumni.myview.LinearSlidingLayout>

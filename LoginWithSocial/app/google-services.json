@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_id": "whats-treading",
+    "project_number": "664282750422",
+    "name": "What\u0027s Treading"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664282750422:android:892927b456f236d1",
+        "client_id": "android:org.simpumind.com.loginwithsocial",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "org.simpumind.com.loginwithsocial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664282750422-m92r4qn5aa35qhchmlq0ddebpmkquvuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.simpumind.com.loginwithsocial",
+            "certificate_hash": "EB01C4E1815584FC80D5B25BEBF7F1DBFFBEE41D"
+          }
+        },
+        {
+          "client_id": "664282750422-k8th1no8gse0hhpa84p3lpor7bgbookn.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "664282750422-lvsr6e1vqjn42hk8gslh5u1b4omar0mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

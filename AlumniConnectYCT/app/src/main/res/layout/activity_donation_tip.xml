@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tab_bg" >
+    <include 
+        layout="@layout/view_navigation"/>
+    <TextView 
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="20dip"
+        android:text="网上在线捐款须知："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_donation_tip_title"
+        android:textColor="@color/donation_tip_text"/>
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:layout_weight="1">
+	    <TextView 
+	        android:text="@string/donation_tip"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:textSize="@dimen/activity_donation_tip"
+	        android:textColor="@color/verification"
+	        android:lineSpacingExtra="4dip" />
+	</ScrollView>
+	<TextView 
+    	android:id="@+id/donation_tip_start"
+        android:text="开始"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginBottom="@dimen/activity_donation_tip_margin_bottom"
+        android:textStyle="bold" />
+</LinearLayout>

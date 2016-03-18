@@ -1,0 +1,37 @@
+Introduction to C Programming (overview of C, history of C, character set of C, structure of a C
+
+Program, Identifier and Keywords, Data types and Constant Values, Variables and Symbolic
+
+constants, Declarations of Variables and Symbolic Constants, Assignment operation in C, Statements).
+
+Operator and Expressions (Arithmetic operators, Increment/decrement operators, relational and
+
+logical operators, Conditional operator, Library functions). Data Input and Output (Single character
+
+Input- getchar and getc functions, single Character Output- putchar and putc functions, string/line of
+
+text input - gets function, string/line of text output- puts function, multipurpose input -scanfand
+
+fscanf function, multipurpose output- printf and fprintf function). Preparing and running a complete
+
+C program (planning a C program, Writing a C program, Error diagnostics, Debugging Techniques -
+
+Error isolation, Tracing, watch values, breakpoints stepping. Control statements (Relational
+
+operators, Conditional operator, Branching – If statement, If ….Else statement, switch statement,
+
+Looping – while statement, do....while statement, for statement, Nested control structures, break
+
+statement, continue statement, GOTO statement, comma operator.) Functions (defining a function,
+
+accessing a function, function prototypes, passing argument to a function, recursion). Arrays (defining
+
+an array, processing an array, passing array to a function, multidimensional array, array and string).
+
+Structures and unions (defining a structure, processing a structure, user-defined data type (typedej),
+
+passing structure to functions, self-referential structures, defining unions, processing unions). Data
+
+Files (Reasons of using files, opening and closing a data file, reading and writing a data file, processing
+
+a data file, unformatted Data file, concept of binary files).

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tab_bg" >
+    <include 
+        layout="@layout/view_navigation"/>
+    <ImageView 
+        android:src="@mipmap/ic_pay_ok"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <TextView 
+        android:id="@+id/donation_pay_num"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center_horizontal"
+        android:text="收到捐款"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/activity_send_hint"/>
+	<TextView 
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="30dip"
+        android:text="感谢您对学校的捐赠"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_donation_tip_title"
+        android:textColor="@android:color/black"/>
+	<EditText 
+    	android:id="@+id/donation_pay_edit"
+	    android:hint="捐赠附言"
+	    android:background="@android:color/white"
+        android:layout_marginTop="20dip"
+	    android:paddingLeft="30dip"
+	    android:paddingRight="30dip"
+	    android:paddingTop="20dip"
+	    android:paddingBottom="20dip"
+	    android:gravity="left|top"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"/>
+	<TextView 
+    	android:id="@+id/donation_pay_finish"
+        android:text="完成"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/activity_donation_tip_margin_bottom"
+        android:textStyle="bold" />
+</LinearLayout>

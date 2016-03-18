@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <LinearLayout 
+	    android:orientation="horizontal"
+      	android:layout_marginBottom="@dimen/activity_send_scroll_margin"
+      	android:layout_marginTop="@dimen/activity_send_scroll_margin"
+	    android:layout_marginLeft="@dimen/activity_send_scroll_margin"
+	    android:layout_marginRight="@dimen/activity_send_scroll_margin"
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content">
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="6"
+	        android:textSize="@dimen/activity_send_left_text"
+	        android:textColor="@color/tab_text_press"
+	        android:text="花絮说明："/>
+	    <EditText 
+	        android:hint="说点什么吧"
+	        android:lines="5"
+	        android:layout_weight="2"
+        	android:textColorHint="@color/activity_send_hint"
+        	android:textColor="@color/activity_send_line"
+	        android:paddingLeft="@dimen/activity_send_padding_leftright"
+	        android:paddingRight="@dimen/activity_send_padding_leftright"
+	        android:paddingTop="@dimen/activity_send_padding_topbottom"
+	        android:paddingBottom="@dimen/activity_send_padding_topbottom"
+	        android:id="@+id/activity_tidbitsheadview_desp"
+	        android:gravity="top"
+	        android:background="@drawable/rounded_edittext" 
+	        android:textSize="@dimen/activity_send_left_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+</LinearLayout>

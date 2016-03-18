@@ -1,0 +1,8 @@
+<TextView
+    android:id="@+id/user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/nav_header_vertical_spacing"
+    android:text="Android Studio"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

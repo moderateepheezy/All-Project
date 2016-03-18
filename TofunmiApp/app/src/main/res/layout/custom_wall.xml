@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_row_selector" >
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginRight="8dp" />
+
+    <!-- User name -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:text="Tofunmi"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/username"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_above="@+id/button_layout">
+    <TextView
+        android:id="@+id/post"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/title" />
+    </LinearLayout>
+
+    <!-- Last Seen -->
+    <TextView
+        android:id="@+id/lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/year"
+        android:text="Last seen"
+        android:textSize="@dimen/year" />
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonDivder1"
+        android:layout_below="@+id/thumbnail"
+        android:src="@drawable/button_divider"/>-->
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/thumbnail"
+        android:weightSum="0.9">
+    <Button
+        android:layout_below="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="like"
+        android:textSize="12dp"
+        android:background="@drawable/button_default_bg"
+        android:drawableLeft="@drawable/heart1"
+        android:id="@+id/like"/>
+    <Button
+        android:layout_below="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="comment"
+        android:textSize="12dp"
+        android:background="@drawable/button_default_bg"
+        android:drawableLeft="@drawable/comment1"
+        android:id="@+id/comment"/>
+    <Button
+        android:layout_below="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="share"
+        android:textSize="12dp"
+        android:background="@drawable/button_default_bg"
+        android:drawableLeft="@drawable/share"
+        android:id="@+id/share"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@+id/button_layout">
+        <EditText
+            android:id="@+id/comment_box"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="left"
+            android:layout_below="@+id/button_layout"
+            android:inputType="textMultiLine"
+            android:background="@drawable/edit_text_style"/>
+        <Button
+            android:layout_below="@+id/comment_box"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="COMMENT"
+            android:id="@+id/comment_btn"/>
+    </LinearLayout>
+</RelativeLayout>

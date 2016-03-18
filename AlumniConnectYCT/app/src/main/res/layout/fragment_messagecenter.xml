@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    <ListView 
+	        android:id="@+id/fragment_messagecenter_listview"
+	        android:fadeScrollbars="true"
+	        android:dividerHeight="0dip"
+	        android:listSelector="#00000000"
+	        android:cacheColorHint="#00000000"
+	        android:fadingEdge="none"
+	        android:layout_width="match_parent"
+			android:layout_height="match_parent">
+	        
+	    </ListView>
+		<RelativeLayout 
+	        android:id="@+id/fragment_messagecenter_login_layout"
+	        android:layout_height="match_parent"
+	        android:layout_width="match_parent"
+	        android:visibility="gone"
+	        android:background="@android:color/white">
+	        <TextView 
+		    	android:id="@+id/fragment_messagecenter_login"
+				android:layout_centerInParent="true"
+		        android:text="登录"
+		        android:gravity="center"
+		        android:textSize="@dimen/login_edit_commit_text"
+		        android:textColor="@android:color/white"
+		   		android:layout_width="match_parent"
+		   		android:layout_height="@dimen/activity_send_text2_height"
+		        android:background="@color/tab_text_press"
+		        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+		        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+		        android:textStyle="bold" />
+	        <TextView 
+	            android:layout_below="@id/fragment_messagecenter_login"
+	            android:layout_centerHorizontal="true"
+	            android:text="使用校友组织，可以联络更多的校友"
+	            android:textColor="@color/adpter_activity_desp"
+	            android:textSize="@dimen/activity_subtitle_text"
+	           	android:layout_height="wrap_content"
+	       		android:layout_width="wrap_content"
+	            android:layout_marginTop="@dimen/activity_bg_margin_top"/>
+		</RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

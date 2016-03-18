@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">AlumniConnect YCT</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="network_error">网络异常，请稍后再试</string>
+    <string name="send_error">您输入的相关信息不正确</string>
+    <string name="send_time_error">您输入的时间范围不正确</string>
+    <string name="tidbits_send_error">当前花絮正在发布中，请稍后再试</string>
+    <string name="version">2.0.3</string>
+    <string name="share_member">各位兄弟姐妹，分享一个咱们母校的APP：科大人，了解校友情况、参加校友活动、联络更多同学、拓展更多校友人脉。</string>
+    <string name="agreement">\u3000\u3000中国科大校友专属定制APP：\n
+        \r\n
+        \u3000\u3000凝聚校友情感、汇聚校友资源，希望能为校友们的打拼提供帮助：\n
+        \u3000\u30001，校友组织：可查看校友信息，联络校友；便于各地、各行业组织校友交流。\n
+        \u3000\u30002，校友活动：查看、组织、参加校友活动。\n
+        \u3000\u30003，新闻资讯：最新母校、校友资讯，传递校友正能量。\n
+        \r\n
+        \u3000\u3000校友个人信息保护策略：\n
+        \u3000\u30001，同班同学，可以看到同学的全部个人信息。\n
+        \u3000\u30002，同一个校友分会的校友，只能看到校友的开放的信息。\n
+        \u3000\u30003，不在同一个校友组织的，无法看到个人信息。\n
+        \u3000\u30004，校友分会、班级的管理员，可以看到申请加入者的全部个人信息。\n
+        \r\n
+        \u3000\u3000请广大校友帮助宣传，及时登记、更新个人信息，并反馈您期望的功能。\n</string>
+    <string name="donation_tip">\u3000\u3000感谢您捐赠中国科学技术大学，支持学校教育事业发展！如果您持有开通网银的银行卡，即可完成网上在线捐赠。 我们建议您仔细阅读“捐赠项目介绍”，了解各捐赠项目的具体情况。点击“网上在线捐赠”按钮，即可进入在线捐赠信息输入网页；详细填写捐资单中栏目，完成后点击“提交”（打“＊”的栏目为必须输入的项目）；进入确认订单页面，选择支付通道后会跳转到相应支付通道的接口页面，完成在线支付。</string>
+</resources>

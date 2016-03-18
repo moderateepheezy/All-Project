@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    <LinearLayout 
+	        android:orientation="horizontal"
+	        android:background="@color/tab_text_press"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="@dimen/nav_title_height">
+	        <com.renyu.alumni.myview.CircleImageView 
+		        android:id="@+id/contentdetail_open_menu"
+		        android:layout_width="25dip"
+		        android:layout_height="25dip"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dip"
+		        android:src="@drawable/ic_people_open"/>
+		    <LinearLayout 
+		        android:orientation="horizontal"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip" 
+		        android:layout_marginTop="5dip" 
+		        android:layout_marginBottom="5dip" 
+		        android:padding="1dip"
+		        android:background="@drawable/rounded_main_contentdetail"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" >
+		        <TextView 
+		            android:id="@+id/contentdetail_index_1"
+		            android:layout_weight="1"
+		            android:padding="5dip"
+		            android:gravity="center"
+		            android:text="全部"
+		            android:background="@color/tab_text_press"
+		            android:textColor="@android:color/white"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content" />
+		        <View 
+		            android:layout_width="0.5dip"
+		            android:layout_height="match_parent"
+		            android:background="@android:color/white"/>
+		        <TextView 
+		            android:id="@+id/contentdetail_index_2"
+		            android:layout_weight="1"
+		            android:padding="5dip"
+		            android:gravity="center"
+		            android:text="新闻活动"
+		            android:background="@color/tab_text_press"
+		            android:textColor="@android:color/white"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content" />
+		        <View 
+		            android:layout_width="0.5dip"
+		            android:layout_height="match_parent"
+		            android:background="@android:color/white"/>
+		        <TextView 
+		            android:id="@+id/contentdetail_index_3"
+		            android:layout_weight="1"
+		            android:padding="5dip"
+		            android:gravity="center"
+		            android:background="@color/tab_text_press"
+		            android:text="资源对接"
+		            android:textColor="@android:color/white"
+		        	android:layout_width="match_parent"
+		        	android:layout_height="wrap_content" />
+		    </LinearLayout>
+	    </LinearLayout>    
+	    <android.support.v4.view.ViewPager
+		    android:id="@+id/contentdetail_viewpager"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent">
+		    
+		</android.support.v4.view.ViewPager>
+	
+	</LinearLayout>
+	<RelativeLayout 
+        android:id="@+id/contentdetail_login_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@android:color/white">
+        <TextView 
+	    	android:id="@+id/contentdetail_login"
+			android:layout_centerInParent="true"
+	        android:text="登录"
+	        android:gravity="center"
+	        android:textSize="@dimen/login_edit_commit_text"
+	        android:textColor="@android:color/white"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="@dimen/activity_send_text2_height"
+	        android:background="@color/tab_text_press"
+	        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+	        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+	        android:textStyle="bold" />
+        <TextView 
+            android:layout_below="@id/contentdetail_login"
+            android:layout_centerHorizontal="true"
+            android:text="使用校友组织，可以联络更多的校友"
+            android:textColor="@color/adpter_activity_desp"
+            android:textSize="@dimen/activity_subtitle_text"
+           	android:layout_height="wrap_content"
+       		android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/activity_bg_margin_top"/>
+	</RelativeLayout>
+</RelativeLayout>
+

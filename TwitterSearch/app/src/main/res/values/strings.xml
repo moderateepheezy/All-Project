@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TwitterSearch</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="queryPrompt">
+Type your search query here Twitter</string>
+    <string name="tagPrompt">Call your request</string>
+    <string name="saveDiscription">
+Click this button to save your request</string>
+    <string name="taggedSearches">List of requests</string>
+    <string name="missingMessage">Fill in the request</string>
+    <string name="OK">OK</string>
+    <string name="searchURL">http://mobile.twitter.com/search/</string>
+    <string name="cancel">Cancel</string>
+    <array name="dialog_items">
+        <item>Share</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </array>
+    <string name="shareEditDeleteTitle">Share , edit or delete request \"%s\"</string>
+    <string name="shareSubject">
+Request to Twitter, which can be of interest for you</string>
+    <string name="shareMessage">Check the query results to Twitter: %s</string>
+    <string name="shareSearch">Share this request through:</string>
+    <string name="confirmMessage">Are you sure you want to delete the request \"%s\"?</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="parse_app_id">t9e6x1fFWLOudScn4b9WER9syhBLcaDqrOlR0sDD</string>
+    <string name="parse_client_key">IC15JQQu8tL7OLi2ZcFZU3haVV3AUyK2mQEJx149</string>
+    <string name="facebook_app_id">1662739027316998</string>
+    <string name="twitter_consumer_key">FUCK5HV3xF9y8ECLHkVkGA59r</string>
+    <string name="twitter_consumer_secret">WWB8MLxENMnZ5ENDKye3hGd17b5Lx6yABZsnE2TS1mn9Exl3WS</string>
+
+    <string name="app_name">Parse Login Sample Layout Override</string>
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">Your are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+    <string name="profile_title_logged_out">You must be logged in to view your profile</string>
+    <string name="profile_login_button_label">Log in</string>
+</resources>

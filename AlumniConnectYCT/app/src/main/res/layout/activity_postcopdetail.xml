@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/adpter_activity_bg" >
+    <include 
+        layout="@layout/view_navigation">
+        
+    </include>
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/activity_detail_cop_list"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/regist_title_bakcground"
+    	android:background="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+    
+	<LinearLayout 
+	    android:id="@+id/activity_detail_operation_layout"
+        android:orientation="horizontal"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:background="@color/tab_bg"
+    	android:layout_height="@dimen/activity_detail_enroll_height">
+        <LinearLayout 
+			android:id="@+id/activity_detail_operation_left"
+           	android:orientation="horizontal"
+           	android:gravity="center"
+           	android:layout_weight="1"
+       		android:layout_width="match_parent"
+       		android:background="@color/tab_bg"
+       		android:layout_height="@dimen/activity_detail_enroll_height">
+            <ImageView 
+                android:src="@drawable/ic_public_cop_message"
+	            android:gravity="center_vertical"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_marginRight="@dimen/activity_detail_enroll_padding" />
+            <TextView 
+	            android:text="私信"         
+	            android:textColor="@color/tab_text_press"
+	            android:gravity="center_vertical"
+	            android:textSize="@dimen/activity_detail_num_text"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content" />
+		</LinearLayout>
+		<View 
+		    android:background="#cccccc"
+        	android:layout_width="0.5dip"
+        	android:layout_marginTop="10dip"
+        	android:layout_marginBottom="10dip"
+        	android:layout_height="match_parent"/>
+        <LinearLayout 
+            android:id="@+id/activity_detail_operation_right"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+        	android:layout_width="match_parent"
+        	android:background="@color/tab_bg"
+        	android:layout_height="@dimen/activity_detail_enroll_height">
+            <ImageView 
+                android:src="@drawable/ic_public_cop_comment"
+	            android:gravity="center_vertical"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_marginRight="@dimen/activity_detail_enroll_padding"
+	            android:id="@+id/detail_begin_operation_right_image"/>
+            <TextView 
+	            android:text="评论"         
+	            android:id="@+id/detail_begin_operation_right_text" 
+	            android:textColor="@color/tab_text_press"
+	            android:gravity="center_vertical"
+	            android:textSize="@dimen/activity_detail_num_text"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

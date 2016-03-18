@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/view_searchresult_title"
+	    android:text="如果没有您的班级，您可以："
+	    android:textSize="@dimen/login_edit_commit_text"
+	    android:textColor="@color/tab_text_press"
+	    android:gravity="center"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+	<TextView 
+        android:id="@+id/view_searchresult_refind"
+        android:layout_gravity="center_horizontal"
+        android:text="重新查找"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+        android:textStyle="bold" />
+	<TextView 
+        android:id="@+id/view_searchresult_create"
+        android:layout_gravity="center_horizontal"
+        android:text="创建班级"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+        android:layout_marginBottom="@dimen/login_edit_commit_margin_top"
+        android:textStyle="bold" />
+</LinearLayout>

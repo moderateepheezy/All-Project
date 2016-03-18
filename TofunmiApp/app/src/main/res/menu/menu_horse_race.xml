@@ -1,0 +1,73 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.simpumind.tofunmiapp.HorseRaceActivity">
+
+
+        <item
+            android:id="@+id/action_wall"
+            android:title="@string/title_activity_wall"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_news"
+            android:title="@string/title_activity_news"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_livescore"
+        android:title="@string/title_activity_livescore"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_car_race"
+            android:title="@string/title_activity_car_race"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_boxing"
+            android:title="@string/title_activity_boxing"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_subscribe"
+            android:title="@string/title_activity_subscribe"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_elp"
+            android:title="@string/title_activity_elp"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_chat"
+            android:title="@string/title_activity_chat"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_faqs"
+            android:title="@string/title_activity_faqs"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_about_us"
+            android:title="@string/title_activity_about_us"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_contact_us"
+            android:title="@string/title_activity_contact_us"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+</menu>

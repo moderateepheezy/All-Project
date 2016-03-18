@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white" >
+    <include layout="@layout/view_navigation"/>
+    <TextView 
+	    android:text="我们将会给您的证明人发邮件，证明人确认后，您将通过验证"
+	    android:textSize="@dimen/activity_send_text"
+	    android:textColor="@color/tab_text_press"
+    	android:gravity="center"
+    	android:layout_gravity="center_horizontal"
+   		android:layout_width="@dimen/activity_send_text2_width"
+   		android:layout_height="@dimen/regist_fail_info_height"/>
+
+	<TextView 
+	    android:id="@+id/verificationresultwait_back"
+        android:text="知道了"
+    	android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/tab_text_press"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/add_organization_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/organization_add_padding"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="添加班级录"/>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@android:color/white"/>
+	<TextView 
+	    android:id="@+id/add_organization_alumni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/organization_add_padding"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="添加校友会"/>
+</LinearLayout>

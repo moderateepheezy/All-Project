@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/regist_fail_info_bg" >
+    <include 
+        layout="@layout/view_navigation">
+        
+    </include>
+    <LinearLayout 
+        android:id="@+id/messagecenter_system"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@android:color/white"
+        android:layout_height="@dimen/ucenter_item_height"
+   		android:layout_width="match_parent">
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+        	android:layout_height="@dimen/ucenter_item_height"
+   			android:layout_width="match_parent">
+	        <TextView 
+	            android:text="系统消息"
+	            android:layout_marginLeft="@dimen/ucenter_item_image_margin_left"
+	            android:textColor="@android:color/black"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	            android:textSize="@dimen/ucenter_item_text"/>
+	        <ImageView 
+	            android:id="@+id/messagecenter_system_newmessage"
+	            android:layout_marginLeft="5dip"
+	   			android:visibility="gone"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+				android:src="@mipmap/new_notify"/>
+        </LinearLayout>
+        <ImageView 
+            android:src="@mipmap/ic_next"
+            android:layout_marginRight="@dimen/ucenter_item_arror_margin_right"
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/regist_title_bakcground"/>  
+    <ListView 
+        android:id="@+id/messagecenter_listview"
+        android:fadeScrollbars="true"
+        android:dividerHeight="0dip"
+        android:listSelector="#00000000"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+        
+    </ListView>      
+</LinearLayout>

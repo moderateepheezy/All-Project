@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@android:color/white" >  
+    <include layout="@layout/view_navigation"/>  
+    <RelativeLayout 
+	   	android:layout_width="match_parent"
+	   	android:layout_height="@dimen/activity_send_comp">
+	    <ImageView 
+	        android:src="@drawable/ic_wrong"
+	        android:layout_centerInParent="true"
+	   		android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"/>
+	</RelativeLayout>
+	<TextView 
+	    android:id="@+id/regist_fail_desp"
+	    android:textSize="@dimen/activity_send_text"
+	    android:textColor="@color/regist_fail_text"
+	    android:gravity="center_horizontal"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/regist_fail_desp_height"/>
+	
+	<TextView 
+	    android:id="@+id/regist_fail_rewrite"
+        android:text="邮箱号错误，重新输入"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:textStyle="bold" />
+	<TextView 
+	    android:id="@+id/regist_fail_findpassword"
+        android:text="找回密码"
+        android:gravity="center"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+        android:layout_marginBottom="@dimen/login_edit_commit_margin_top"
+        android:textStyle="bold" />
+</LinearLayout>

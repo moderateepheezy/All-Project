@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/news_viewpager_height"
+    android:orientation="vertical" >
+    <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+	    android:id="@+id/news_view_pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/news_viewpager_height" />
+	<LinearLayout 
+	    android:id="@+id/news_view_pager_point_layout"
+	    android:orientation="horizontal"
+	    android:layout_marginBottom="@dimen/adapter_news_margin_topbuttom"
+	    android:gravity="center_horizontal|bottom"
+	    android:layout_alignParentBottom="true"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+The Integrated Development Environment (IDE), Project Window, Toolbox, Form layout, window,
+
+Properties window, Menu and toolbars. Visual programming, Event-Driving Programming. VB
+
+character set, Data types, Data type conversion. The various types of variables. The rules for forming
+
+variable names. Declaration of variables, Storing and retrieving data in a variable. Visual Basic
+
+Statements, Operators, Expressions, and Object variables, Object variable declaration, Scope of
+
+variable Instances of an Object. IF ... THEN statement, IF .. THEN .. ELSE statement. SWITCH
+
+function, CASE statement, FOR.. NEXT statement, WHILE ... DO. Statement. The scope of variables
+
+such as public, private, global and static. The different types of constants e.g. system defined. The
+
+scope of constants. The concept of circular referencing. The concept of procedure. User’s defined
+
+functions. How to define and call a function. How to define recursive procedures. Explain array
+
+declaration and subscript range. Explain multiple array declaration. Explain static, global and
+
+dynamic array declaration. Explain static and dynamic allocations. Explain the constructors and
+
+destructors. Explain information guiding using private, public and protected. Explain instances of
+
+class variables. Explain the creation of methods. Describe the different types of Data files e.g.
+
+sequential, random, Binary. Explain how to create the file types. Explain how to read and write to the
+
+file type mentioned above. Explain Database. Describe the procedure for creating a Database Describe
+
+the different ways of accessing a database e.g. codes, data control, and data environment. Describe
+
+how to perform the following operations: adding, editing, updating, deleting and searching. Explain
+
+the relevance of structure query language ( SQL). Explain how to design a report format using data
+
+report object. Describe how to retrieve output using the format described above. State the different
+
+Dialogue boxes available e.g. message box, input box file/open dialogue box file/save dialogue Box,
+
+File/print Dialogue Box, etc.

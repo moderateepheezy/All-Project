@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:windowBackground">@color/back</item>
+
+        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/iron</item>
+
+        <item name="colorButtonNormal">@color/primary_darker</item>
+        <item name="android:colorButtonNormal">@color/primary_darker</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/iron</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+    <style name="AppTheme.Dark.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Dark.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MaterialSearchViewStyle">
+        <item name="searchBackground">@android:color/white</item>
+        <item name="searchVoiceIcon">@drawable/ic_action_voice_search</item>
+        <item name="searchCloseIcon">@drawable/ic_action_navigation_close</item>
+        <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back</item>
+        <item name="searchSuggestionBackground">@android:color/white</item>
+
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+
+
+    <style name="Theme.Slidr.Slidable" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary1</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:colorAccent">@color/accent1</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:divider">@color/divider1</item>
+
+        <!-- These values must be set for this mechanism to work -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+    </style>
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style>
+
+    <style name="ActionBarPopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ChannelBar" parent="AppTheme">
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/pn_blue</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.MessageBar" parent="AppTheme"></style>
+
+</resources>

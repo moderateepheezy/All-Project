@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_height="match_parent"
+    android:background="#4ff2d4">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:clipToPadding="false"
+        />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <com.quinny898.library.persistentsearch.SearchBox
+        android:layout_width="wrap_content"
+        android:id="@+id/searchbox"
+        android:layout_marginTop="-5dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

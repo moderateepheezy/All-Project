@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="alumni.renyu.com.alumniconnectyct"
+    android:versionCode="18"
+    android:versionName="@string/version" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <!-- <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission> -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" >
+    </uses-permission>
+
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.renyu.alumni.AlumniApplication"
+        android:allowBackup="true"
+        android:persistent="true"
+        android:theme="@style/AppTheme"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+
+        <!-- 您从百度网站获取的APP KEY -->
+        <meta-data android:name="BaiduMobAd_STAT_ID" android:value="c9846cca63" />
+        <!-- 渠道商编号 -->
+        <meta-data android:name="BaiduMobAd_CHANNEL" android:value="localmarket" />
+
+        <!-- 是否开启错误日志统计，默认为false -->
+        <meta-data android:name="BaiduMobAd_EXCEPTION_LOG" android:value="true" />
+        <!-- 日志发送策略，可选值：APP_START、ONCE_A_DAY、SET_TIME_INTERVAL，默认为APP_START -->
+        <meta-data android:name="BaiduMobAd_SEND_STRATEGY" android:value="APP_START" />
+        <!-- 日志发送策略 为SET_TIME_INTERVAL时，需设定时间间隔(取消下行注释)。取值为1-24的整数，默认为1 -->
+        <!-- <meta-data android:name="BaiduMobAd_TIME_INTERVAL" android:value="1" />  -->
+        <!-- 日志仅在wifi网络下发送，默认为false -->
+        <meta-data android:name="BaiduMobAd_ONLY_WIFI" android:value="false" />
+        <!-- 是否获取基站位置信息 ,默认为true-->
+        <meta-data android:name="BaiduMobAd_CELL_LOCATION" android:value="true" />
+        <!-- 是否获取GPS位置信息，默认为true -->
+        <meta-data android:name="BaiduMobAd_GPS_LOCATION" android:value="true" />
+        <!-- 是否获取WIFI位置信息，默认为true -->
+        <meta-data android:name="BaiduMobAd_WIFI_LOCATION" android:value="true" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Ti3nXcfI2oIH3ROEqXGvuBKG" />
+        <activity android:name="com.renyu.alumni.launcher.SplashActivity" android:theme="@style/SplashTheme" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="data"
+                    android:scheme="sharetest" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.renyu.alumni.main2.MainActivity2" android:theme="@style/AppMainTheme" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation" ></activity>
+        <activity android:name="com.renyu.alumni.common.NotificationActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.common.AreaChoiceActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.common.UpdateTipActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.common.CameraBeforeActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="orientation|keyboardHidden|navigation"/>
+        <activity android:name="com.renyu.alumni.common.LabelChoiceActivity" android:theme="@android:style/Theme.Dialog" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.common.CurrentLocationActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.common.CurrentLocationDetailActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.image.ImageShowActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.LoginActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:launchMode="singleTop">
+            </activity>
+        <activity android:name="com.renyu.alumni.login.RegistActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.RegistMoreActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.ChoiceSchoolInfoActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.RegistFailActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.RegistOKActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.VerificationTipActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.RegistRepeatFailActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.login.ForgetPassActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationDetailActivity" android:launchMode="singleTop"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.ReviewClassActivity" android:launchMode="singleTop"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.ReviewTeacherListActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.BussinessCardActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.SearchAlumniActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.SearchClassActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation" android:launchMode="singleTop"></activity>
+        <activity android:name="com.renyu.alumni.organization.SearchResultActivity" android:launchMode="singleTop"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.CreateClassActivity" android:windowSoftInputMode="adjustResize"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.SearchAlumniResultActivity" android:launchMode="singleTop"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.ReportActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.ReportMoreActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.IntroductionManagerActivity"  android:windowSoftInputMode="adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationDetailApplyActivity" android:launchMode="singleTop"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationDetailRejectActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationDetailRejectMoreActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.OrganizationJoinActivity" android:windowSoftInputMode="adjustResize"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.CreateClassRejectActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.organization.CreateClassRejectMoreActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.MessageActivity"  android:windowSoftInputMode="stateHidden|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.UserInfoActivity" android:windowSoftInputMode="stateHidden|adjustResize"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.MessageCenterActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.MyBussinessCardActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.SettingActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.ModifyPassActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.SystemMessageActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.VerificationActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation" android:launchMode="singleTop"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.VerificationResultActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.VerificationResultWaitActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.SuggestActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.AgreementActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ucenter.UserLabelActivity"  android:windowSoftInputMode="adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.news.NewsDetailActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.ScreenOnActivity" android:launchMode="singleTask" android:theme="@android:style/Theme.Wallpaper.NoTitleBar" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.PostActivityDetailActivity"  android:windowSoftInputMode="stateHidden|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.PostCopDetailActivity"  android:windowSoftInputMode="stateHidden|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.SendPostActivity"  android:windowSoftInputMode="stateHidden|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.SendPostCommentActivity"  android:windowSoftInputMode="stateVisible|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.SearchCopActivity"  android:windowSoftInputMode="stateVisible|adjustResize" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.postsystem.SearchCopResultActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.donation.DonationActivity" android:launchMode="singleTask"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.donation.DonationUserInfoActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.donation.DonationPayActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+        <activity android:name="com.renyu.alumni.donation.DonationMessageActivity"  android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation"></activity>
+
+
+
+        <service android:name="com.renyu.alumni.service.QiniuService"></service>
+        <service android:name="com.renyu.alumni.service.UpdateService"></service>
+        <service android:name="com.renyu.alumni.service.DownloadService"></service>
+        <service android:name="com.renyu.alumni.service.NetworkService"></service>
+        <service android:name="com.renyu.alumni.service.AlumniLoginService">
+            <intent-filter>
+                <action android:name="com.renyu.alumni.service.AlumniLoginService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.renyu.alumni.receiver.AlarmReceiver"></receiver>
+        <receiver android:name="com.renyu.alumni.receiver.QiniuReceiver"></receiver>
+        <receiver android:name="com.renyu.alumni.receiver.NetWorkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.renyu.alumni.receiver.ScreenOnReceiver">
+            <intent-filter>
+                <action android:name="com.renyu.alumni.receiver.ScreenOnReceiver"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- push服务 -->
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <!-- 【必须】 exported设置为true -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="true" >
+            <intent-filter>
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action"-->
+                <action android:name="android.intent.action.ALL_APPS" />
+            </intent-filter>
+        </activity>
+        <!-- 【必须】 信鸽receiver广播接收 -->
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v2" >
+            <intent-filter android:priority="0x7fffffff" >
+
+                <!-- 【必须】 信鸽SDK的内部广播 -->
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <!-- 【必须】 系统广播：开屏和网络切换 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+            <!-- 【可选】 usb相关的系统广播，增强信鸽service的复活机会，请根据需要添加 -->
+            <intent-filter android:priority="0x7fffffff" >
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_REMOVED" />
+                <action android:name="android.intent.action.MEDIA_CHECKING" />
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <!-- 【必须】 信鸽service -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushService"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v2" />
+
+        <!-- 【必须】 通知service，其中android:name部分要改为当前包名 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true" >
+            <intent-filter>
+                <!-- 【必须】 请修改为当前APP名包.PUSH_ACTION，如demo的包名为：com.qq.xgdemo -->
+                <action android:name="com.renyu.alumni.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+
+        <!-- APP实现的Receiver，用于接收消息和结果反馈 -->
+        <!-- com.tencent.android.tpushdemo.CustomPushReceiver需要改为自己的Receiver -->
+        <receiver android:name="com.renyu.alumni.receiver.CustomPushReceiver" >
+            <intent-filter>
+
+                <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 请修改为APP的AccessId -->
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100026551" />
+        <!-- 请修改为APP的AccessKey -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="A4S32GA3X5EG" />
+
+        <!-- qq -->
+        <activity android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.tencent.plus.ImageActivity" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1101696381" /><!-- 100380359 100381104 222222 -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.renyu.alumni.qqapi.QQActivity" android:theme="@android:style/Theme.Translucent" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation" ></activity>
+
+        <!-- weixin -->
+        <activity
+            android:name="com.renyu.alumni.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent">
+        </activity>
+        <receiver
+            android:name="com.renyu.alumni.wxapi.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <!-- weixin pay-->
+        <activity
+            android:name="com.renyu.alumni.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"/>
+        <activity android:name="com.renyu.alumni.wxapi.PayActivity"
+            android:theme="@android:style/Theme.Translucent" android:screenOrientation="portrait"></activity>
+
+        <!-- sinaweibo -->
+        <activity android:name="com.renyu.alumni.sinaweiboapi.WBMainActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden|navigation" >
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <activity android:name="com.renyu.alumni.alipay.AliPayActivty"
+            android:theme="@android:style/Theme.Translucent" android:screenOrientation="portrait"></activity>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+    </application>
+
+</manifest>

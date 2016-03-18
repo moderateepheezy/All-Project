@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="6"
+    tools:context=".MainLayoutActivity" >
+
+    <Button
+        android:id="@+id/btnBuisness"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/buisnessadvice"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btnPrb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/reportPrb"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btnLegal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/legalaspect"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btnFeeds"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/feeds"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/buyorsell"
+        android:textSize="@dimen/textSize" />
+
+    <Button
+        android:id="@+id/btnMedic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:text="@string/Medic"
+        android:textSize="@dimen/textSize" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/view_navigation"/>  
+    <ImageView 
+	    android:src="@drawable/verification_despimage"
+        android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="@dimen/regist_fail_info_nouser_margin"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+    <TextView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textColor="@android:color/black"
+	    android:textSize="@dimen/regist_fail_info_tip"
+	    android:gravity="center_vertical"
+	    android:padding="@dimen/regist_fail_info_item_margin_left"
+	    android:text="请您稍后在个人中心里进行手工验证"/>
+	<TextView 
+	    android:id="@+id/regist_verification_tip_commit"
+        android:text="我知道了"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/regist_fail_info_nouser_margin"
+        android:layout_marginBottom="@dimen/regist_fail_info_nouser_margin"
+        android:textStyle="bold" />
+
+</LinearLayout>

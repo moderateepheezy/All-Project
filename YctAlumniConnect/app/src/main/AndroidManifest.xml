@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.simpumind.com.yctalumniconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="org.simpumind.com.yctalumniconnect.groupchat.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="org.simpumind.com.yctalumniconnect.groupchat.name.permission.C2D_MESSAGE" />
+
+    <uses-sdk tools:overrideLibrary="com.google.android.gms.wearable,com.google.android.gms.wallet,com.google.android.gms.all,com.google.android.gms.vision,com.google.android.gms.safetynet,com.google.android.gms.plus,com.google.android.gms.panorama,com.google.android.gms.nearby,com.google.android.gms.identity,com.google.android.gms.measurement,com.google.android.gms.gcm,com.google.android.gms.games,com.google.android.gms.maps,com.google.android.gms.location,com.google.android.gms.fitness,com.google.android.gms.drive,com.google.android.gms.cast,com.google.android.gms.auth,com.google.android.gms.appstate,com.google.android.gms.base,com.google.android.gms.appinvite,com.google.android.gms.appindexing,com.google.android.gms.analytics,com.google.android.gms,com.google.android.gms.ads,com.r0adkll.slidr, com.ftinc.kit, rx.android, timber.log, com.google.android.gms.all"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logor"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name=".activities.RandomActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark"></activity>
+        <activity
+            android:name=".activities.SignupActivity"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.Dark"></activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.AlbumActivity"
+            android:label="@string/title_activity_album"
+            android:screenOrientation="portrait">
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activities.FullScreenActivity"
+            android:label="@string/title_activity_full_screen"
+            android:screenOrientation="portrait">
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.AlbumActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.AlbumActivity" />
+        </activity>
+        <activity
+            android:name=".activities.AllMembersActivity"
+            android:label="@string/title_activity_all_members"
+            android:parentActivityName=".activities.HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activities.NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".activities.HomeActivity"
+            android:theme="@style/AppTheme.Dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ViewMemberActivity"
+            android:label="@string/title_activity_view_member"
+            android:parentActivityName=".activities.AllMembersActivity"
+            android:theme="@style/AppTheme.Dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.AllMembersActivity" />
+        </activity>
+        <activity
+            android:name=".groupchat.ForumActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_forum"
+            android:parentActivityName=".activities.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.HomeActivity" />
+        </activity>
+
+        <receiver
+            android:name=".groupchat.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="org.simpumind.com.yctalumniconnect" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".groupchat.gcm.GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activities.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:parentActivityName=".activities.HomeActivity"
+            android:theme="@style/AppTheme.Dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.simpumind.com.yctalumniconnect.activities.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

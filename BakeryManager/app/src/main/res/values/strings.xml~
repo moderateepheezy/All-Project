@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bakery Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_main">Home</string>
+    
+    <string name="parse_app_id">yxCfOGR18xTyi8X5FCiBeWscCydUadsLcJ7M6iKM</string>
+    <string name="parse_client_key">jcmVFxuNPwdBSGOew0GPFcMsXp6a77oukRVk1oCA</string>
+    <string name="title_activity_mixing">Mixing</string>
+    <string name="title_activity_baking">Baking</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_mixing_detailed">Mixing Log</string>
+    <string name="title_activity_baking_detail">Baking Log</string>
+    <string name="title_activity_packaging">Packaging</string>
+    <string name="title_activity_packaging_detail">PackagingDetail</string>
+    <string name="title_activity_load_screen">Load Screen</string>
+    <string name="title_activity_driver_request">Driver\'s Request</string>
+</resources>

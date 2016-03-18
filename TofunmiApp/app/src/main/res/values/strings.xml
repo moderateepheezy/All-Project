@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">TofunmiApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_home">Home</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/wall</item>
+        <item>@drawable/news</item>
+        <item>@drawable/livescore</item>
+        <item>@drawable/car_race</item>
+        <item>@drawable/boxing</item>
+        <item>@drawable/horse_racing</item>
+        <item>@drawable/elp</item>
+        <item>@drawable/chat</item>
+        <item>@drawable/subcribe</item>
+        <item>@drawable/faqs</item>
+        <item>@drawable/about_us</item>
+        <item>@drawable/contact_us</item>
+    </string-array>
+
+    <string-array name="image_names">
+        <item>Yello Wall</item>
+        <item>News</item>
+        <item>Live Score</item>
+        <item>Car Race</item>
+        <item>Boxing</item>
+        <item>Horse Race</item>
+        <item>ELP</item>
+        <item>Sport Chat</item>
+        <item>Subscribe</item>
+        <item>FAQS</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+    </string-array>
+    <string name="title_activity_wall">Yello Wall</string>
+    <string name="title_activity_chat">Sport Chat</string>
+    <string name="title_activity_livescore">Live Score</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_boxing">Boxing</string>
+    <string name="title_activity_horse_race">Horse Race</string>
+    <string name="title_activity_elp">ELP</string>
+    <string name="title_activity_subscribe">Subscribe</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_faqs">FAQS</string>
+    <string name="title_activity_car_race">Car Race</string>
+    <string name="about_us">
+        Passionate about programming - we are and we aim to share our enthusiasm and commitment every day.IProgrammer can be summed up as:An online magazine for programmers
+but unlike a typical magazine that comes out once a month, or at best once a week, we publish new content  every day of the week.
+We aim to post at least three full-length feature articles per week that provide a balance of theory and practice, tutorial and project plus comment pieces that reflect on the programming issues. We also have a rich wealth of material on the history and development of programming and computer technology.are of interest to our team of reviewers and are likely to appeal to many of our readers.
+    </string>
+    <string name="title_activity_live_score">Live Score</string>
+
+</resources>

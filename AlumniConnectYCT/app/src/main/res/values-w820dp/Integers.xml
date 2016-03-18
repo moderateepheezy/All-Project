@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="avatar_activity_id">-1000</integer>
+    <integer name="avatar_activity_state">-1001</integer>
+    <integer name="avatar_activity_picid">-1002</integer>
+    <integer name="topic_message_image">-1003</integer>
+</resources>

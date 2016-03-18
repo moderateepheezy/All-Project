@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlumniConnectYCT.iml" filepath="$PROJECT_DIR$/AlumniConnectYCT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipaySDK-20150602/alipaySDK-20150602.iml" filepath="$PROJECT_DIR$/alipaySDK-20150602/alipaySDK-20150602.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

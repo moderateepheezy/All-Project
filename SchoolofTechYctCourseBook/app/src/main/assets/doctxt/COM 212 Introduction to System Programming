@@ -1,0 +1,33 @@
+The concept of system programming The differences between systems programs and application
+
+programs. The differences between Assembler
+
+and operating systems. The meaning and work of l-pass and 2-pass assembler. The general format of an
+
+Assembly program statement. The purpose of each field- of assembly language statement. The meaning of
+
+symbolic operations. —List some examples and uses of operation code — List examples of symbolic
+
+operations. —Define translation: Compilation and interpretation. —Describe multi-pass and single-pass
+
+compilation. - -Explain the load and go process. —Explain interpretation — Differentiate between
+
+interpretation and compilation —Define tokens and delimiters —Describe the scanning process —Explain
+
+sentence recognition —Describe types of tables generated in the process of compilation e.g inter table,
+
+symbol table, etc. —Explain code generation and code optimization. —Describe error Handling. — Explain
+
+utilities — List example of utilities — List uses of simple utilities — Describe libraries — List examples and
+
+uses of libraries — Relate utilities to library — Implement Library and utilities programs. The historical
+
+development of operating systems. The importance and uses of operating System. Batch processing,
+
+multiprogramming; multiprocessing. time-sharing. Batch, real-time, time sharing and network operating
+
+system. The system commands of MS-DOS, Unix, Windows operating systems. The process of handling
+
+I/O. The concept of interrupts s and traps. Interrupt handling process. The operation of pooling. The CPU
+
+activity in interrupt mode and pooling and the CPU status.

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	android:background="@color/splash_intro_bg" >
+    <ImageView 
+        android:id="@+id/splash2_right"
+        android:src="@drawable/splash_orange"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dip"
+        android:visibility="invisible"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <ImageView 
+        android:id="@+id/splash2_right_final"
+        android:src="@drawable/splash_orange"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="55dip"
+        android:layout_marginTop="55dip"
+        android:visibility="invisible"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+    <ImageView 
+        android:id="@+id/splash2_left"
+        android:layout_marginTop="105dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_cup"
+        android:visibility="invisible"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+	<ImageView 
+	    android:src="@drawable/splash_bottom2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="60dip"
+    	android:layout_centerHorizontal="true"
+    	android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

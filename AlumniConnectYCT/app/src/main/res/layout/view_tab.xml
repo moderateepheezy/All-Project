@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <View 
+        android:background="@color/tab_top"
+    	android:layout_width="match_parent"
+    	android:layout_height="0.5dip"/>
+    <RelativeLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="@dimen/tab_height"
+    	android:background="@color/tab_bg">
+        <LinearLayout 
+            android:id="@+id/tab_layout"
+	        android:orientation="vertical"
+	    	android:layout_width="wrap_content"
+	    	android:layout_centerInParent="true"
+	    	android:gravity="center"
+	    	android:layout_height="@dimen/tab_height">
+	    	<ImageView 
+		        android:id="@+id/tab_image"
+		        android:layout_marginTop="3dip"
+		        android:src="@drawable/ic_news"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"/>    	
+	        <TextView 
+	            android:text="新闻"
+	            android:id="@+id/tab_title"
+	            android:layout_marginTop="4dip"
+	            android:textSize="10sp"
+	            android:textColor="@color/tab_text"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"/>
+	    </LinearLayout>
+	    <ImageView 
+            android:id="@+id/tab_newmessage"
+            android:layout_toRightOf="@id/tab_layout"
+            android:layout_marginTop="7dip"
+            android:visibility="gone"
+            android:src="@drawable/new_notify"
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

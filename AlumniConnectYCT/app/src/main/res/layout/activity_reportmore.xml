@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/regist_title_bakcground"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/view_navigation"/>
+	<TextView 
+	    android:id="@+id/reportmore_edit_title"
+    	android:text="其他举报原因"
+        android:textSize="@dimen/regist_title_text"
+        android:textStyle="bold"
+        android:textColor="@color/regist_title_text"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/regist_title_margin_left"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/regist_title_height"/>
+	<EditText 
+        android:id="@+id/reportmore_edit"
+        android:hint="请输入举报该校友的原因"
+	    android:textColor="@color/activity_send_line"
+   		android:textSize="@dimen/activity_send_image_text"
+   		android:layout_width="match_parent"
+   		android:layout_height="100dip"
+   		android:gravity="top|left"
+   		android:paddingTop="5dip"
+   		android:paddingBottom="5dip"
+        android:paddingRight="@dimen/regist_title_margin_left"
+        android:paddingLeft="@dimen/regist_title_margin_left"
+   		android:background="@android:color/white"/>
+	<TextView 
+	    android:id="@+id/reportmore_commit"
+        android:text="发送"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/login_edit_commit_text"
+        android:textColor="@android:color/white"
+   		android:layout_width="match_parent"
+   		android:layout_height="@dimen/activity_send_text2_height"
+        android:background="@color/tab_text_press"
+        android:layout_marginLeft="@dimen/login_edit_margin_leftright"
+        android:layout_marginRight="@dimen/login_edit_margin_leftright"
+        android:layout_marginTop="@dimen/login_edit_commit_margin_top"
+        android:layout_marginBottom="@dimen/login_edit_commit_margin_top"
+        android:textStyle="bold" />
+</LinearLayout>

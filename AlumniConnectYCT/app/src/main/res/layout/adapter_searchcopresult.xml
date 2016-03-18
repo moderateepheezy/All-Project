@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+        <RelativeLayout 
+            android:layout_gravity="center_vertical"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content">
+	        <ImageView 
+		        android:id="@+id/adapter_searchcopresult_image"
+		        android:scaleType="centerCrop"
+		        android:layout_marginLeft="@dimen/organization_item_image_margin_left"
+		    	android:layout_width="@dimen/organization_item_image_heightwidth"
+		    	android:layout_height="@dimen/organization_item_image_heightwidth"
+		    	android:src="@drawable/ic_organization_user_default"/>
+	        <ImageView 
+		        android:layout_marginLeft="@dimen/organization_item_image_margin_left"
+		    	android:layout_width="@dimen/organization_item_image_heightwidth"
+		    	android:layout_height="@dimen/organization_item_image_heightwidth"
+		    	android:src="@drawable/bg_usericon"/>
+		    <ImageView 
+		        android:id="@+id/adapter_searchcopresult_image_verify"
+		        android:visibility="gone"
+			    android:layout_marginLeft="@dimen/organization_item_image_margin_left"
+		        android:layout_centerVertical="true"
+		    	android:layout_width="@dimen/organization_item_image_heightwidth"
+		    	android:layout_height="@dimen/organization_item_image_heightwidth"
+		    	android:src="@drawable/ic_user_verification_no"/>
+	    </RelativeLayout>
+	    <LinearLayout 
+	        android:orientation="vertical"
+	        android:gravity="center_vertical"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="@dimen/organization_detail_item_height"
+		    android:layout_marginRight="@dimen/organization_item_image_margin_right"
+		    android:layout_marginLeft="@dimen/organization_item_image_margin_right" >
+		    <LinearLayout 
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:orientation="horizontal">
+		        <TextView 
+				    android:textColor="@android:color/black"
+				    android:textSize="@dimen/organization_item_title_text"
+				    android:singleLine="true"
+		    	    android:text="123123"
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+				    android:id="@+id/adapter_searchcopresult_name"/>
+		        <com.eyeem.chips.ChipsTextView
+				    android:id="@+id/adapter_searchcopresult_lable_value"
+				    android:padding="5dp"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content" />
+		    </LinearLayout>
+	        
+	        <TextView 
+			    android:textColor="@color/version"
+			    android:textSize="@dimen/organization_item_otherinfo_text"
+			    android:singleLine="true"
+	    	    android:text="123123"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginTop="2dip"
+		    	android:layout_marginBottom="2dip"
+			    android:id="@+id/adapter_searchcopresult_classinfo"/>
+	        <TextView 
+			    android:textColor="@color/version"
+			    android:textSize="@dimen/organization_item_otherinfo_text"
+			    android:singleLine="true"
+	    	    android:text="123123"
+		    	android:layout_width="match_parent"
+		    	android:layout_height="wrap_content"
+			    android:id="@+id/adapter_searchcopresult_industry"/>
+	    </LinearLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>

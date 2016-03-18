@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('alipaySDK-20150602.jar'))

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/view_navigation" />
+    <ImageView 
+        android:id="@+id/activityedit_image"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:layout_margin="@dimen/activity_send_image_margin"
+        android:src="@mipmap/ic_pic_add"
+   		android:layout_width="@dimen/activity_send_image_heightwidth"
+   		android:layout_height="@dimen/activity_send_image_heightwidth"/>
+    <EditText 
+        android:id="@+id/activityedit_desp"
+        android:hint="编辑图片说明（120字以内）"
+        android:background="@null"
+	    android:textColor="@color/activity_send_line"
+   		android:textSize="@dimen/activity_send_image_text"
+   		android:layout_width="match_parent"
+   		android:layout_height="100dip"
+   		android:gravity="top|left"
+        android:layout_marginRight="@dimen/activity_edit_margin_leftright"
+        android:layout_marginLeft="@dimen/activity_edit_margin_leftright"/>
+
+</LinearLayout>

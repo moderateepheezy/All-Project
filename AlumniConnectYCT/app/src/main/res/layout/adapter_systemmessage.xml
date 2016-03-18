@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+	    android:textColor="@android:color/black"
+	    android:textSize="@dimen/organization_item_title_text"
+	    android:singleLine="true"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+	    android:layout_marginTop="2dip"
+	    android:id="@+id/adapter_systemmessage_time"
+	    android:layout_marginLeft="@dimen/organization_item_image_margin_right"/>
+       
+    <TextView 
+        android:textColor="@color/adpter_activity_desp"
+	    android:textSize="@dimen/organization_item_otherinfo_text"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+	    android:id="@+id/adapter_systemmessage_content"
+	    android:layout_marginTop="2dip"
+	    android:layout_marginRight="@dimen/organization_item_image_margin_right"
+	    android:layout_marginLeft="@dimen/organization_item_image_margin_right"/>
+    <View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dip"
+	    android:layout_margin="1dip"
+	    android:background="@color/bussiness_card_line"/>
+</LinearLayout>
